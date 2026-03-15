@@ -1,11 +1,11 @@
 ---
 layout: default
-title: EchoMom
-parent: Work
-nav_order: 3
+title: EchoMom — Penn Health Hackathon 2025
+parent: Hackathons
+grand_parent: Main Projects
 ---
 
-# EchoMom
+# EchoMom — Penn Health Hackathon 2025
 
 ## the problem
 

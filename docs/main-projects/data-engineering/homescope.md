@@ -1,8 +1,8 @@
 ---
 layout: default
 title: HomeScope
-parent: Work
-nav_order: 1
+parent: Data Engineering
+grand_parent: Main Projects
 ---
 
 # HomeScope

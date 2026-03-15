@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Movie Guessing Game
-parent: Work
-nav_order: 5
+parent: Systems & Backend
+grand_parent: Main Projects
 ---
 
 # Movie Guessing Game

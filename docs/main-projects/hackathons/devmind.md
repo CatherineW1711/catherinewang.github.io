@@ -1,11 +1,11 @@
 ---
 layout: default
-title: DevMind
-parent: Work
-nav_order: 2
+title: DevMind — Penn AI Hackathon 2025 Finalist
+parent: Hackathons
+grand_parent: Main Projects
 ---
 
-# DevMind
+# DevMind — Penn AI Hackathon 2025 Finalist
 
 ## the problem
 

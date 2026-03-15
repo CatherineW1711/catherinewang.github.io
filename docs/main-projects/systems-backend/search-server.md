@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Multithreaded Search Server
-parent: Work
-nav_order: 4
+parent: Systems & Backend
+grand_parent: Main Projects
 ---
 
 # Multithreaded Search Server

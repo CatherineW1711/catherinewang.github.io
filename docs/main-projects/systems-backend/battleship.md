@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Battleship
-parent: Work
-nav_order: 6
+parent: Systems & Backend
+grand_parent: Main Projects
 ---
 
 # Battleship
