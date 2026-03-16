@@ -6,7 +6,7 @@ grand_parent: Main Projects
 ---
 
 # HomeScope
-
+![alt text](<Screenshot 2026-03-15 at 9.16.30 PM.png>)
 ## the problem
 
 Buying a home means evaluating schools, demographics, healthcare access, and neighborhood amenities — but that data lives in six different places. Nobody has time to cross-reference Zillow, GreatSchools, the Census Bureau, and Yelp before making a $400K decision.
@@ -50,17 +50,19 @@ Query optimization is not guesswork. The 850s → 14s improvement came from unde
 Schema decisions have long tails. The ISA facility pattern made cross-facility queries clean, but added complexity when loading data. Worth it, but the tradeoff wasn't obvious upfront.
 
 ## screenshots
+![alt text](<Screenshot 2026-03-15 at 9.26.01 PM.png>)
 
-> 📸 Screenshot: Demographics page — ZIP code search with population, density, state-level comparison table
+![alt text](<Screenshot 2026-03-15 at 9.29.54 PM.png>)
 
-> 📸 Screenshot: Housing Explorer — multi-filter property search with ZIP-level median comparisons
+![alt text](<Screenshot 2026-03-15 at 9.29.19 PM.png>)
 
-> 📸 Screenshot: Neighborhood ranking — composite livability score sorted by amenity density vs. home price
 
-> 📸 Screenshot: Facilities map — Leaflet interactive map with color-coded markers
 
 ---
 
-Live demo: [cis-5500-final-project-team-23-fall.vercel.app](https://cis-5500-final-project-team-23-fall.vercel.app) *(note: AWS RDS instance is offline post-course)*
+Live demo website: [cis-5500-final-project-team-23-fall.vercel.app](https://cis-5500-final-project-team-23-fall.vercel.app) *(note: AWS RDS instance is offline post-course)*
+
+Recorded demo: [Watch on Google Drive](https://drive.google.com/file/d/13cRCHiGyEPzr3ErOSkC5ZMawQuExdzxv/view?usp=drive_link)
+
 
 **Tech:** PostgreSQL · AWS RDS · Node.js · Express · React · Python/pandas · Vercel · Render

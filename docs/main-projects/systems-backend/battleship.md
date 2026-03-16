@@ -34,7 +34,8 @@ Statistical significance matters even in small projects. Running the A/B test lo
 
 ## screenshots
 
-> 📸 Screenshot: [add when available]
+> 📸 Screenshot: 
+![alt text](<Screenshot 2026-03-15 at 9.45.09 PM.png>) ![alt text](<Screenshot 2026-03-15 at 9.45.12 PM.png>) ![alt text](<Screenshot 2026-03-15 at 9.45.23 PM.png>) ![alt text](<Screenshot 2026-03-15 at 9.45.33 PM.png>)
 
 ---
 
