@@ -4,14 +4,36 @@ title: Home
 nav_order: 1
 ---
 
-# hi, I'm Catherine Wang.
+# Catherine Wang
 
-I'm a CS grad student at Penn finishing up in May 2026, looking for roles in data engineering and solution engineering.
+MS CS @ Penn (MCIT), May 2026. I build data systems and backend infrastructure.
 
-Most of my time goes into building systems that handle messy, real-world data — the kind where six datasets disagree on what a ZIP code looks like, or a query takes 14 minutes until it doesn't. I like that kind of problem. It's specific, it's solvable, and when you get it right it actually matters to someone.
+Before CS, I studied finance — which mostly taught me the interesting questions are always one layer below the obvious ones. Bilingual EN/CN. Open to relocation.
 
-Before CS I studied finance, which mostly taught me that the interesting questions are always one layer below the obvious ones.
+---
 
-I'm bilingual in English and Chinese, open to relocation, and genuinely enjoy working through hard problems with people who care about getting things right.
+### selected projects
 
-[See my work →](docs/main-projects/)
+| Project | What it is |
+|---|---|
+| [HomeScope](docs/main-projects/data-engineering/homescope) | 2.2M+ record real estate platform · PostgreSQL / AWS RDS · 98% query optimization |
+| [DevMind](docs/main-projects/hackathons/devmind) | AI developer tool · Penn AI Hackathon Finalist |
+| [EchoMom](docs/main-projects/hackathons/echomom) | Voice data pipeline for postpartum screening · Penn Health Hackathon |
+| [Search Server](docs/main-projects/systems-backend/search-server) | Multithreaded HTTP server in C++ · TF-IDF ranking · zero memory leaks |
+
+---
+
+### tech
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+
+---
+
+[LinkedIn](https://www.linkedin.com/in/catherinewang1711) · catherinewang1711@gmail.com · hewang@seas.upenn.edu
