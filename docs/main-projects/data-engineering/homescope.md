@@ -7,13 +7,13 @@ grand_parent: Main Projects
 
 # HomeScope
 ![alt text](<Screenshot 2026-03-15 at 9.16.30 PM.png>)
-## the problem
+## The problem
 
 Buying a home means evaluating schools, demographics, healthcare access, and neighborhood amenities — but that data lives in six different places. Nobody has time to cross-reference Zillow, GreatSchools, the Census Bureau, and Yelp before making a $400K decision.
 
 HomeScope pulls it all into one database and lets you ask real questions: Which ZIP codes have strong schools and below-average home prices? Where does hospital bed capacity not keep up with population?
 
-## what I built
+## What I built
 
 A full-stack web application integrating 2.2M+ real estate listings across six datasets — schools, demographics, restaurants, hospitals, and retail locations — into a unified PostgreSQL schema on AWS RDS.
 
@@ -28,7 +28,7 @@ Beyond my primary page, I contributed equally across the full project lifecycle:
 
 The platform went through four structured milestones — schema design, data ingestion, query optimization, and full deployment — and I was hands-on at every stage.
 
-## how it works
+## How it works
 
 The data problem nobody talks about: six Kaggle datasets with inconsistent ZIP formats, duplicate facilities identified only by name+coordinates, and 2.2M rows that needed to join cleanly across all tables. Before writing a single API, we built a standardization pipeline that:
 
@@ -41,7 +41,7 @@ Schema design decision: facilities use a supertype/subtype ISA pattern — a sha
 
 The query that took the most work: the neighborhood scoring query initially ran in 850 seconds. Problem: multiple LEFT JOINs on raw tables producing 100M+ intermediate rows. Fix: pre-aggregate each dataset into CTEs by ZIP before joining. Final runtime: 14.6 seconds — a 98% reduction. Indexes on ZIP columns across all six tables brought most single-table queries from 40+ seconds to under 5 seconds.
 
-## what I learned
+## What I learned
 
 Data engineering is 80% making things joinable. The interesting queries were easy once the pipeline was solid. Getting six datasets to agree on what a ZIP code looks like took longer than building the entire frontend.
 
@@ -49,7 +49,7 @@ Query optimization is not guesswork. The 850s → 14s improvement came from unde
 
 Schema decisions have long tails. The ISA facility pattern made cross-facility queries clean, but added complexity when loading data. Worth it, but the tradeoff wasn't obvious upfront.
 
-## screenshots
+## Screenshots
 ![alt text](<Screenshot 2026-03-15 at 9.26.01 PM.png>)
 
 ![alt text](<Screenshot 2026-03-15 at 9.29.54 PM.png>)

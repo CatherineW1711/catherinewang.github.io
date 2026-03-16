@@ -6,14 +6,14 @@ grand_parent: Main Projects
 ---
 
 # Multithreaded Search Server
-## the problem
+## The problem
 
 Most search implementations are either trivially simple (linear scan) or 
 require heavy infrastructure like Elasticsearch. This project sits in the 
 middle: a search server that handles concurrent requests, ranks results by 
 relevance, and actually performs, built from scratch in C++.
 
-## what I built
+## What I built
 
 A multithreaded HTTP search server with a full inverted index and TF-IDF 
 ranking, built using POSIX primitives.
@@ -28,7 +28,7 @@ using TF-IDF ranking over the inverted index, with proper header formatting
 and error handling. Automated builds with Make, achieved 85%+ unit-test 
 coverage with Catch2, and validated memory safety with Valgrind with zero leaks.
 
-## how it works
+## How it works
 
 Index build: directory crawler, tokenizer, inverted index (term to doc list 
 with frequencies). Query time: parse HTTP request, look up terms, TF-IDF 
@@ -42,7 +42,7 @@ The inverted index is read-only after build, so no locking is needed during
 query serving, a deliberate design choice that simplified concurrency 
 significantly.
 
-## what I learned
+## What I learned
 
 Concurrency bugs are deterministic, they just require the right conditions 
 to trigger. Valgrind and thread sanitizers found issues that testing alone 
@@ -51,7 +51,7 @@ never would have.
 Read-only data structures are a superpower in concurrent systems. Designing 
 the index to be immutable after build eliminated an entire class of problems.
 
-## screenshots
+## Screenshots
 
 > 📸 Screenshot: 
 ![alt text](<Screenshot 2026-03-15 at 9.43.09 PM.png>)

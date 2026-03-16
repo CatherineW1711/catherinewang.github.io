@@ -7,7 +7,7 @@ grand_parent: Main Projects
 
 # Movie Guessing Game
 
-## the problem
+## The problem
 
 A turn-based multiplayer movie guessing game with a specific constraint:
 three gameplay commands (skip, escape, block) all needed to modify game
@@ -15,7 +15,7 @@ state, but the core engine couldn't know what each command did internally.
 The design had to be extensible without touching the engine every time
 a new action was added.
 
-## what I built
+## What I built
 
 A Java game where 2 players compete to identify movies from progressive
 hints, built on MVC architecture with the Command pattern handling all
@@ -31,7 +31,7 @@ gameplay actions.
   including a 5/5 Comedy Films challenge
 - 95%+ JUnit test coverage, Maven build pipeline, Git collaboration
 
-## how it works
+## How it works
 
 The Command pattern was the right call because all three actions needed
 to change game state in different ways — block affects the opponent,
@@ -48,7 +48,7 @@ The trickiest challenge: loading movie data from CSV using a library
 that parsed strings differently than expected, and writing split
 functions to extract tokens reliably across inconsistent formats.
 
-## what I learned
+## What I learned
 
 Two design patterns in one project sounds like over-engineering until
 you actually need both. MVC kept the UI work from bleeding into game
@@ -57,11 +57,12 @@ logic. Command kept the engine clean as actions multiplied.
 The popup was our first time doing anything UI-related in Java — getting that working taught more about Java I/O and rendering than
 any of the game logic did.
 
-## screenshots
+## Screenshots
 
 > 📸 Screenshot: 
 ![alt text](<Screenshot 2026-03-15 at 9.48.16 PM.png>) 
 ![alt text](<Screenshot 2026-03-15 at 9.48.41 PM.png>)
+![alt text](<Screenshot 2026-03-15 at 10.01.26 PM.png>)
 ---
 
 **Tech:** Java · OOP · Command Pattern · JUnit · Maven · Git
