@@ -33,8 +33,16 @@ Building under a 48-hour constraint forces ruthless prioritization — we cut th
 
 ## Screenshots
 
-![alt text](711773626733_.pic.jpg)
-![alt text](<Screenshot 2026-03-15 at 10.08.49 PM.png>)
+![alt text](<Screenshot 2026-03-25 at 6.35.41 PM.png>)
+
+![alt text](<Screenshot 2026-03-25 at 6.36.25 PM.png>)
 ---
+
+## Live Demo: **[devmindcw.netlify.app](https://devmindcw.netlify.app)**
+
+- Frontend deployed on Netlify
+- Backend (Express/Node.js) hosted on Render
+- Live demo runs in mock LLM mode for stability
+- Full Claude + OpenAI dual-provider integration available locally via `MOCK_LLM=false`
 
 **Tech:** Python · LLM APIs · Static Code Analysis · React
