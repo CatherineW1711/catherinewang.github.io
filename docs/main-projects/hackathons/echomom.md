@@ -42,4 +42,7 @@ Working with clinicians to translate care logic into technical specs was the har
 
 ---
 
+## Presentation Slide
+https://www.dropbox.com/scl/fi/ubkpf4fraa62k18np5fko/EchoMom-1.pdf?rlkey=kbrrkzh3v64s5ecibd70rwwbg&st=icczar9n&dl=0
+
 **Tech:** Python · Voice ML · NLP (BERT, wav2vec 2.0) · FHIR/HL7 · React · AWS
