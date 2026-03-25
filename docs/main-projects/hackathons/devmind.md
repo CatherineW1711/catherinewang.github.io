@@ -36,6 +36,9 @@ Building under a 48-hour constraint forces ruthless prioritization — we cut th
 ![alt text](<Screenshot 2026-03-25 at 6.35.41 PM.png>)
 
 ![alt text](<Screenshot 2026-03-25 at 6.36.25 PM.png>)
+
+![alt text](<Screenshot 2026-03-25 at 6.44.47 PM.png>)
+
 ---
 
 ## Live Demo: **[devmindcw.netlify.app](https://devmindcw.netlify.app)**
